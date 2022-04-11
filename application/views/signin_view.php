@@ -1,9 +1,9 @@
 <div class="outer-div">
-    <form action="/singin/auth">
+    <form>
         <p id="signin-text">sign in to your account</p>
-        <input id="email-input" type="email" placeholder="E-Mail">
-        <input id="password-input" type="password" placeholder="Your Password">
-        <button id="signin-button" type="button">SIGN IN</button>
-        <a id="register-link" href="/register/reg">register</a>
+        <input class= "email-input" type="email" autocomplete="on" placeholder="E-Mail">
+        <input class="password-input" type="password" autocomplete="on" placeholder="Password">
+        <button class="signin-button" type="button">SIGN IN</button>
+        <a id="register-link" href="/register">register</a>
     </form>
 </div>
