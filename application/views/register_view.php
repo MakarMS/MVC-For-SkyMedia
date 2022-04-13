@@ -1,5 +1,5 @@
 <?php
 
-echo 'регистрация';
+print_r($data);
 
 ?>

@@ -1,17 +1,15 @@
 $('.signin-button').on('click', function(e){
 
-    var login = $(".email-input").val();
+    var email = $(".email-input").val();
     var password = $(".password-input").val();
 
-
-    console.log('Логин:' + login);
-    console.log('Пароль:' + password);
         $.ajax({
             url: '/ajax/auth',
             method: 'post',
             dataType: 'json',
-            data: {"login": login, "password": password},
+            data: {"email": email, "password": password},
             success: function(data) {
+                console.log(data);
                 if (data['valid_data'] == 0){
                     $('.email-input').val('')
                     $('.password-input').val('')
@@ -20,6 +18,8 @@ $('.signin-button').on('click', function(e){
                     $('.email-input').attr('placeholder', 'Invalid E-Mail or Password');
                     $('.password-input').first().addClass("error_input");
 
+                }else if (data['valid_data'] == 1){
+                    window.location = "http://mvc-for-skymedia/" + data['url'];
                 }
             }
         });
