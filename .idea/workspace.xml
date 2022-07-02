@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4a63df3f-9ce9-4a9d-a4f6-9fb14e363352" name="Changes" comment="Реализована авторизация без обработки ошибок, реализованы классы БД, и методы к БД.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/core/route.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/core/route.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/core/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/core/view.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,6 +34,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/OpenServer/domains/course",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -52,6 +55,9 @@
       <workItem from="1649792449701" duration="4014000" />
       <workItem from="1649804152438" duration="5505000" />
       <workItem from="1650309665457" duration="1227000" />
+      <workItem from="1650315332910" duration="49000" />
+      <workItem from="1650480761786" duration="1382000" />
+      <workItem from="1652184430739" duration="16000" />
     </task>
     <servers />
   </component>

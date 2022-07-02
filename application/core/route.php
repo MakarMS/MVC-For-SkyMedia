@@ -10,7 +10,6 @@ Class Route {
         if (!empty($routes[1])){
             $controller_name = $routes[1];
         }
-
         if (!empty($routes[2])){
             $action_name = $routes[2];
         }
